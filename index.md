@@ -1,0 +1,17 @@
+- Introduction
+    - [Getting Started](/docs/{{version}}/getting-started)
+    - [Q & A](/docs/{{version}}/qa)
+- Language
+    - [Syntax](/docs/{{version}}/syntax)
+    - [Values](/docs/{{version}}/values)
+    - [Variables](/docs/{{version}}/variables)
+    - [Operators](/docs/{{version}}/operators)
+    - [Control Flow](/docs/{{version}}/control-flow)
+    - [Functions](/docs/{{version}}/functions)
+    - [Classes](/docs/{{version}}/classes)
+    - [Method Calls](/docs/{{version}}/method-calls)
+    - [Error Handling](/docs/{{version}}/error-handling)
+- Standard Library
+    - [Math](/docs/{{version}}/math)
+- Developer Guide
+    - [Style Guide for Ghost Code](/docs/{{version}}/style-guide-for-ghost-code)

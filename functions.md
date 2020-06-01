@@ -1,8 +1,4 @@
----
-title: Functions
-date: 2020-04-30
-slug: functions
----
+# Functions
 
 Like Lua, functions are first-class values in Ghost. That means that functions can be stored in variables, passed as arguments to other functions, and returned as results. This gives great flexibility to the language.
 
@@ -11,7 +7,7 @@ Since Ghost is an object-oriented programming language, most of your code will l
 ## Defining Functions
 You define functions using the `function` statement, followed by a list of parameters, and a body:
 
-```javascript
+```dart
 function printSum(a, b) {
     print(a + b);
 }
@@ -19,7 +15,7 @@ function printSum(a, b) {
 
 The body of a function is always a block. Inside it, you can return a value using a `return` statement.
 
-```javascript
+```dart
 function returnSum(a, b) {
     return a + b;
 }
@@ -30,7 +26,7 @@ If execution reaches the end of the block without hitting a `return`, it implici
 ## Calling Functions
 Once you have a function, calling it is as simple as passing the required parameters along with the function name:
 
-```javascript
+```dart
 var value = returnSum(1, 2);
 ```
 
@@ -39,7 +35,7 @@ The assigned value is the result of the functions `return` statement. As mention
 ## Closures
 Functions are _first class_ in Ghost, which just means they are real values that you can get a reference to, store in variables, pass around, etc.
 
-```javascript
+```dart
 function addPair(a, b) {
     return a + b;
 }
@@ -55,7 +51,7 @@ print(identity(addPair)(1, 2));
 
 Since function declarations are statements, you can declare local functions inside another function:
 
-```javascript
+```dart
 function outerFunction() {
     function localFunction() {
         print("I'm local!");
@@ -67,7 +63,7 @@ function outerFunction() {
 
 You can even combine local functions, first-class functions, and block scope:
 
-```javascript
+```dart
 function returnFunction() {
     var outside = "outside";
 

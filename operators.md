@@ -1,8 +1,4 @@
----
-title: Operators
-date: 2020-05-02
-slug: operators
----
+# Operators
 
 An operator is something that takes one or more values (or expressions) and yields another value (so that the construction itself becomes an expression)
 
@@ -43,7 +39,7 @@ Remember basic arithmetic from school? These work just like those.
 
 The result of the modulo operator (`%`) has the same sign as the dividend - that is, the result of `a % b` will have the same sign as `a`. For example:
 
-```javascript
+```dart
 print(5 % 3);    // Prints 2
 print(5 % -3);   // Prints 2
 print(-5 % 3);   // Prints -2
@@ -53,7 +49,7 @@ print(-5 % -3);  // Prints -2
 ## Assignment Operator
 The basic assignment operator is `=`. This is NOT the same as "equal to". It means that the left operand gets set to the value of the expression on the right.
 
-```javascript
+```dart
 var a = (5 + 10);
 
 print(a);  // Prints 15

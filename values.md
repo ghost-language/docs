@@ -1,8 +1,4 @@
----
-title: Values
-date: 2020-04-29
-slug: values
----
+# Values
 
 In Ghost's little universe, the atoms that make up all matter are the built-in data types.
 
@@ -24,7 +20,7 @@ Ghost has a single numeric type: double-precision floating point. Number literal
 ## Strings
 A string is an array of bytes. String literals are surrounded in double quotes.
 
-```javascript
+```dart
 "Hello, world!"
 ```
 

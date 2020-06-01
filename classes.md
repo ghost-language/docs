@@ -1,15 +1,11 @@
----
-title: Classes
-date: 2020-05-05
-slug: classes
----
+# Classes
 
 Classes define an objects _behavior_ and _state_. Behavior is defined by [methods](/method-calls) which live in the class. Every object of the same class supports the same methods. State is defined in fields, whose values are stored in each instance.
 
 ## Defining A Class
 Classes are created using the `class` keyword, unsurprisingly:
 
-```javascript
+```dart
 class CoffeeMaker {
     //
 }
@@ -20,7 +16,7 @@ This creates a class named `CoffeeMaker` with no methods or fields.
 ## Methods
 To add functionality to our coffee major, we need to give it methods.
 
-```javascript
+```dart
 class CoffeeMaker {
     brew() {
         print("Your coffee is now brewing.");
@@ -30,7 +26,7 @@ class CoffeeMaker {
 
 This defines a `brew` method that takes no arguments. To add parameters, put their names inside the parentheses:
 
-```javascript
+```dart
 class CoffeeMaker {
     brew(dosage, temperature) {
         print("Your " + dosage + " of coffee is now brewing at " + temperature + " degrees.");
@@ -50,7 +46,7 @@ you're saying "look up the method `brew` in the scope of the object `Coffee`". I
 ### `this`
 Things get more interesting when you're inside the body of a method. When the method is called on some object and the body is being executed, you often need to access that object itself. You can do that using `this`.
 
-```javascript
+```dart
 class CoffeeMaker {
     setGrind(grind) {
         this.grind = grind;
@@ -68,7 +64,7 @@ The `this` keyword works sort of like a variable, but has special behavior. It a
 
 It's an error to refer to `this` outside of a method. However, it's perfectly fine to use it _inside_ a method. When you do, `this` still refers to the instance whose _method_ is being called:
 
-```javascript
+```dart
 class CoffeeMaker {
     setGrind(grind) {
         this.grind = grind;
@@ -84,14 +80,14 @@ class CoffeeMaker {
 }
 ```
 
-This is unlike Lua and JavaScript which can "forget" `this` when you create a callback inside a method. Ghost does what you want here and retains the reference to the original object.
+This is unlike Lua and dart which can "forget" `this` when you create a callback inside a method. Ghost does what you want here and retains the reference to the original object.
 
 (In technical terms, a function's closure includes `this`. Ghost can do this because it makes a distinction between methods and functions.)
 
 ## Constructors
 We've seen how to define classes and how to declare methods on them. Our coffee maker can brew coffee, but we don't actually have any way to control it. To create _instances_ of a class, we need a _constructor_. You define one like so:
 
-```javascript
+```dart
 class CoffeeMaker {
     constructor(grind, temperature) {
         print("Grind set to: " + grind);
@@ -102,7 +98,7 @@ class CoffeeMaker {
 
 The `constructor` keyword says we're defining a constructor. To make a coffee maker now, we can now pass through the set arguments to customize our class:
 
-```javascript
+```dart
 var drip = CoffeeMaker("flat", "200");
 var chemex = CoffeeMaker("coarse", "202");
 var pourOver = CoffeeMaker("fine", "202");
@@ -116,7 +112,7 @@ This distinction is important because it means inside the body of the constructo
 ## Fields
 All state stored in instances is stored in _fields_. Each field has a name, are bound to `this`, and act the same as variables.
 
-```javascript
+```dart
 class CoffeeMaker {
     constructor(grind, temperature) {
         this.grind = grind;
@@ -137,7 +133,7 @@ A class can inherit from a "parent" or _superclass_. When you invoke a method on
 
 To inherit another class, use `extends` when you declare your class:
 
-```javascript
+```dart
 class Bar extends foo {
     //
 }

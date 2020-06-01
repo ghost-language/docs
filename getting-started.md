@@ -1,8 +1,4 @@
----
-title: Getting Started
-date: 2020-04-28
-slug: getting-started
----
+# Getting Started
 
 ## What is Ghost
 
@@ -25,6 +21,6 @@ If you just run `ghost` without any arguments, it starts the interpreter in inte
 
 Ready to give Ghost a spin?
 
-```javascript
+```dart
 print("Hello, world!");
 ```

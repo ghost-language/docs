@@ -1,8 +1,4 @@
----
-title: Syntax
-date: 2020-04-28
-slug: syntax
----
+# Syntax
 
 Ghost's syntax pulls a lot of influence from other C-like languages. In particular PHP, JavaScript, and Dart. It's designed to be familiar to those coming from these languages, with the aim to simple and predictable.
 
@@ -11,7 +7,7 @@ Scripts are stored in plain text files with a `.ghost` file extension. Ghost doe
 ## Comments
 Line comments start with `//` and continue to the end of the line.
 
-```javascript
+```dart
 // This is a comment
 ```
 
@@ -39,7 +35,7 @@ ALL_CAPS
 ## Blocks
 Ghost uses curly braces to define _blocks_. You can use a block anywhere a statement is allowed, like in control flow statements.
 
-```javascript
+```dart
 {
     print("One statement.");
     print("Two statements.");

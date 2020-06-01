@@ -1,19 +1,15 @@
----
-title: Variables
-date: 2020-04-30
-slug: variables
----
+# Variables
 
-Variables are named slots for storing values. You define a new variable in Ghost using a `var` statement, like so:
+Variables are named slots for storing values. You define a new variable in Ghost using a `let` statement, like so:
 
-```javascript
-var a = 1 + 2;
+```dart
+let a = 1 + 2;
 ```
 
 This creates a new variable `a` in the current scope and initializes it with the result of the expression following the `=`. Once a variable has been defined, it can be accessed by name as you would expect.
 
-```javascript
-var technology = "Micromachines";
+```dart
+let technology = "Micromachines";
 
 print(technology);
 ```
@@ -21,11 +17,11 @@ print(technology);
 ## Scope
 Ghost has true block scope: a variable exists from the point where it is defined until the end of the block where that definition appears.
 
-```javascript
+```dart
 {
     print(a);  // Error: "a" doesn't exist yet.
 
-    var a = 123;
+    let a = 123;
 
     print(a);
 }
@@ -35,11 +31,11 @@ print(a);  // Error: "a" doesn't exist anymore.
 
 Variables defined at the top level of a script are _top-level_, or _global_. All other variables are _local_. Declaring a variable in an inner scope with the same name as an outer one is called _shadowing_ and is not an error.
 
-```javascript
-var a = "outer";
+```dart
+let a = "outer";
 
 {
-    var a = "inner";
+    let a = "inner";
 
     print(a);  // inner
 }
@@ -49,16 +45,16 @@ print(a);  // outer
 
 On the other hand, declaring a variable with the same name in the _same_ scope _is_ an error.
 
-```javascript
-var a = "hi";
-var a = "again";  // Error: "a" is already declared.
+```dart
+let a = "hi";
+let a = "again";  // Error: "a" is already declared.
 ```
 
 ## Assignment
 After a variable has been declared, you can assign to it using `=`:
 
-```javascript
-var a = 123;
+```dart
+let a = 123;
 
 a = 456;
 ```

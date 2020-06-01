@@ -1,8 +1,4 @@
----
-title: Error Handling
-date: 2020-05-02
-slug: error-handling
----
+# Error Handling
 
 _I am error._
 
