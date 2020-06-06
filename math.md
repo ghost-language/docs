@@ -2,86 +2,86 @@
 
 This library provides basic mathematical functions.
 
-### math_abs
+### Math.abs
 Returns the absolute, or non-negative value, of a given value.
 
-```dart
->>> math_abs(-100);
+```javascript
+>>> Math.abs(-100);
 100
 ```
 
-### math_acos
+### Math.acos
 Returns the inverse cosine in radians of the given value.
 
-```dart
->>> math_acos(1);
+```javascript
+>>> Math.acos(1);
 0
->>> math_acos(0);
+>>> Math.acos(0);
 1.5708
 ```
 
-### math_asin
+### Math.asin
 Returns the inverse sine in radians of the given value.
 
-```dart
->>> math_asin(0);
+```javascript
+>>> Math.asin(0);
 0
->>> math_asin(1);
+>>> Math.asin(1);
 90
 ```
 
-### math_atan
+### Math.atan
 Returns the inverse tangent in radians.
 
-```dart
->>> var c = math_cos(0.8);
->>> var s = math_cos(0.8);
->>> math_atan(s/c);
+```javascript
+>>> var c = Math.cos(0.8);
+>>> var s = Math.cos(0.8);
+>>> Math.atan(s/c);
 45
 ```
 
-### math_ceil
+### Math.ceil
 Returns the integer no greater than the given value (even for negatives).
 
-```dart
->>> math_ceil(0.5);
+```javascript
+>>> Math.ceil(0.5);
 1
->>> math_ceil(-0.5);
+>>> Math.ceil(-0.5);
 -0
 ```
 
-### math_cos
+### Math.cos
 Return the cosine value for the given value in radians.
 
-```dart
->>> math_cos(math_pi() / 4);
+```javascript
+>>> Math.cos(Math.pi() / 4);
 0.999906
 ```
 
-### math_floor
+### Math.floor
 Returns the integer no less than the given value (even for negatives).
 
-```dart
->>> math_floor(0.5);
+```javascript
+>>> Math.floor(0.5);
 0
->>> math_floor(-0.5);
+>>> Math.floor(-0.5);
 -1
 ```
 
-### math_max
+### Math.max
 Return the maximum value from a variable length list of arguments.
 
-```dart
->>> math_max(1.2, -7, 3);
+```javascript
+>>> Math.max(1.2, -7, 3);
 3
->>> math_max(1.2, 7, 3);
+>>> Math.max(1.2, 7, 3);
 7
 ```
 
-### math_pi
+### Math.pi
 Returns a part of the constant Pi.
 
-```dart
->>> math_pi();
+```javascript
+>>> Math.pi();
 3.14159
 ```

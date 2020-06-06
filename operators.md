@@ -39,7 +39,7 @@ Remember basic arithmetic from school? These work just like those.
 
 The result of the modulo operator (`%`) has the same sign as the dividend - that is, the result of `a % b` will have the same sign as `a`. For example:
 
-```dart
+```javascript
 print(5 % 3);    // Prints 2
 print(5 % -3);   // Prints 2
 print(-5 % 3);   // Prints -2
@@ -49,7 +49,7 @@ print(-5 % -3);  // Prints -2
 ## Assignment Operator
 The basic assignment operator is `=`. This is NOT the same as "equal to". It means that the left operand gets set to the value of the expression on the right.
 
-```dart
+```javascript
 var a = (5 + 10);
 
 print(a);  // Prints 15

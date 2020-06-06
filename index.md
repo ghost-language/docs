@@ -1,6 +1,5 @@
 - Introduction
     - [Getting Started](/docs/{{version}}/getting-started)
-    - [Q & A](/docs/{{version}}/qa)
 - Language
     - [Syntax](/docs/{{version}}/syntax)
     - [Values](/docs/{{version}}/values)

@@ -46,7 +46,7 @@ Opening braces MUST be on their own line and MUST NOT be preceded or followed by
 
 Closing braces MUST be on their own line and MUST NOT be preceded by a blank line.
 
-```dart
+```javascript
 class ClassName extends ParentClass
 {
     // methods
@@ -58,7 +58,7 @@ Method and function names MUST NOT be declared with space after the method name.
 
 A method declaration looks like the following. Note the placement of parentheses, commas, spaces, and braces:
 
-```dart
+```javascript
 class ClassName
 {
     fooBarBaz(arg1, arg2, arg3)
@@ -70,7 +70,7 @@ class ClassName
 
 A function declaration looks like the following. Note the placement of parentheses, commas, spaces, and braces.
 
-```dart
+```javascript
 function fooBarBaz(arg1, arg2, arg3)
 {
     // function body
@@ -80,7 +80,7 @@ function fooBarBaz(arg1, arg2, arg3)
 ## Method and Function Arguments
 In the argument list, there MUST NOT be a space before each comma, and there MUST be one space after each comma.
 
-```dart
+```javascript
 class ClassName
 {
     fooBarBaz(arg1, arg2, arg3)
@@ -93,7 +93,7 @@ class ClassName
 ## Method and Function Calls
 When making a method or function call, there MUST NOT be a space between the method or function name and the opening parenthesis, there MUST NOT be a space after the opening parenthesis, and there MUST NOT be a space before the closing parenthesis. In the argument list, there MUST NOT be a space before each comma, and there MUST be one space after each comma.
 
-```dart
+```javascript
 foo.bar(arg1, arg2);
 ```
 
@@ -113,7 +113,7 @@ The body of each structure MUST be enclosed by braces.
 ## if, else if, else
 An `if` structure looks like the following. Note the placement of parentheses, spaces, and braces; and that `else` and `else if` are on the same line as the closing brace from the earlier body.
 
-```dart
+```javascript
 if (condition1) {
     // if body
 } else if (condition2) {
@@ -126,7 +126,7 @@ if (condition1) {
 ## while
 A `while` statement looks like the following. Note the placement of parentheses, spaces, and braces.
 
-```dart
+```javascript
 while (condition) {
     // structure body
 }
@@ -135,7 +135,7 @@ while (condition) {
 ## for
 A `for` statement looks like the following. Note the placement of parentheses, spaces, and braces.
 
-```dart
+```javascript
 for (var i = 0; i < 10; i = i + 1) {
     // for body
 }
@@ -144,7 +144,7 @@ for (var i = 0; i < 10; i = i + 1) {
 ## Binary Operators
 All binary artihmetic, comparison, and assignment operators MUST be preceded and followed by at least one space:
 
-```dart
+```javascript
 var foo;
 var bar;
 
@@ -166,7 +166,7 @@ In the argument list and variable list, there MUST NOT be a space before each co
 
 A closure declaration looks like the following. Note the placement of parentheses, commas, spaces, and braces:
 
-```dart
+```javascript
 var closure = function (arg1, arg2) {
     // body
 }

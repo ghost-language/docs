@@ -20,7 +20,7 @@ Ghost has a single numeric type: double-precision floating point. Number literal
 ## Strings
 A string is an array of bytes. String literals are surrounded in double quotes.
 
-```dart
+```javascript
 "Hello, world!"
 ```
 

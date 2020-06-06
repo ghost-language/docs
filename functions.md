@@ -7,7 +7,7 @@ Since Ghost is an object-oriented programming language, most of your code will l
 ## Defining Functions
 You define functions using the `function` statement, followed by a list of parameters, and a body:
 
-```dart
+```javascript
 function printSum(a, b) {
     print(a + b);
 }
@@ -15,7 +15,7 @@ function printSum(a, b) {
 
 The body of a function is always a block. Inside it, you can return a value using a `return` statement.
 
-```dart
+```javascript
 function returnSum(a, b) {
     return a + b;
 }
@@ -26,7 +26,7 @@ If execution reaches the end of the block without hitting a `return`, it implici
 ## Calling Functions
 Once you have a function, calling it is as simple as passing the required parameters along with the function name:
 
-```dart
+```javascript
 var value = returnSum(1, 2);
 ```
 
@@ -35,7 +35,7 @@ The assigned value is the result of the functions `return` statement. As mention
 ## Closures
 Functions are _first class_ in Ghost, which just means they are real values that you can get a reference to, store in variables, pass around, etc.
 
-```dart
+```javascript
 function addPair(a, b) {
     return a + b;
 }
@@ -51,7 +51,7 @@ print(identity(addPair)(1, 2));
 
 Since function declarations are statements, you can declare local functions inside another function:
 
-```dart
+```javascript
 function outerFunction() {
     function localFunction() {
         print("I'm local!");
@@ -63,7 +63,7 @@ function outerFunction() {
 
 You can even combine local functions, first-class functions, and block scope:
 
-```dart
+```javascript
 function returnFunction() {
     var outside = "outside";
 
