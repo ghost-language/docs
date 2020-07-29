@@ -1,23 +1,31 @@
 # Syntax
 
-Ghost's syntax pulls a lot of influence from other C-like languages. In particular PHP, JavaScript, and javascript. It's designed to be familiar to those coming from these languages, with the aim to simple and predictable.
+Ghost's syntax pulls a lot of influence from other C-like languages. In particular Go, JavaScript, and PHP. It's designed to be familiar to those coming from these languages, with the aim to be simple and predictable.
 
 Scripts are stored in plain text files with a `.ghost` file extension. Ghost does not compile ahead of time: programs are run directly from source, from top to bottom like any other scripting language.
 
 ## Comments
-Line comments start with `//` and continue to the end of the line.
+Single line comments start with `//` and continue to the end of the line.
 
-```javascript
-// This is a comment
+```dart
+// This is a single line comment
 ```
 
-Comments behave like whitespace and are discarded during execution.
+Block comments are enclosed within `/* ... */` and can span as many lines as necessary.
+
+```dart
+/*
+This is a block comment.
+*/
+```
+
+Comments behave like whitespace and are discarded during execution. While single line comments are the norm, block comments are useful within an expression or to disable large swaths of code.
 
 ## Reserved Words
 Ghost has a small subset of reserved words used as predefined identifiers. None of the identifiers listed here should be used as identifiers in any of your scripts.
 
-```
-else false for if null return true var while
+```text
+function true false if else return while and or
 ```
 
 ## Identifiers

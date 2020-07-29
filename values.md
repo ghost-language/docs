@@ -3,10 +3,10 @@
 In Ghost's little universe, the atoms that make up all matter are the built-in data types.
 
 ## Booleans
-A boolean value represents truthy or falsy states. There are two boolean literals, `true` and `false`.
+A boolean value represents truthy or falsy states. There are two boolean values, `true` and `false`.
 
 ## Numbers
-Ghost has a single numeric type: double-precision floating point. Number literals look like you expect from other languages:
+Ghost has a single numeric type: arbitrary-precision fixed-point decimals. Number values look like you expect from other languages:
 
 ```
 0
@@ -18,10 +18,33 @@ Ghost has a single numeric type: double-precision floating point. Number literal
 ```
 
 ## Strings
-A string is an array of bytes. String literals are surrounded in double quotes.
+A string value is a (possibly empty) sequence of bytes. The number of bytes is called the length of the string and is never negative. String values can be surrounded in either double or single quotes, and can store unicode text.
 
-```javascript
+```dart
 "Hello, world!"
+'こんにちは、世界'
+```
+
+## Lists
+A list value is an ordered list of elements of possibly different types. Each element in a list can be accessed individually. Lists are constructed as a comma separated list of elements, enclosed by brackets.
+
+```dart
+[
+    'Ghost',
+    57.3,
+    function(x) { x * x}
+]
+```
+
+## Maps
+Maps -- sometimes called _associative arrays_, _hashes_, or _dictionaries_ in other programming languages, store a collection of key-value pairings. Maps are constructed as a comma-separated list of key-value pairs enclosed by curly braces. Each key-value pair uses a colon to differentiate between the key and the value.
+
+```dart
+{
+    'name': 'Ghost',
+    'value': 57.3,
+    'handler': function(x) { x * x}
+}
 ```
 
 ## Null

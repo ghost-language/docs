@@ -1,0 +1,13 @@
+## To-Do
+- [x] Getting Started
+- [x] Syntx
+- [x] Values
+- [ ] Variables
+- [ ] Operators
+- [ ] Control Flow
+- [ ] Functions
+- [ ] Classes
+- [ ] Method Calls
+- [ ] Error Handling
+- [ ] Math
+- [ ] Style Guide for Ghost Code
