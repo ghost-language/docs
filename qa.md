@@ -1,4 +1,6 @@
-# Q & A
+---
+title: Q & A
+---
 
 ## Why did you create Ghost?
 This is an entirely selfish project, brought on by the desire to learn how programming languages work under the hood. I'm a professional developer, and work with many languages (primarily PHP) throughout the day. I continue on writing code, accomplishing tasks, building libraries and platforms without actually understanding what's going on "underneath". I know computers are logical machines and are _incredibly_ fast. Millions and millions of computers are flipping `0`'s to `1`'s and back to `0`'s non-stop to power the world we live in.

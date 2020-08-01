@@ -1,4 +1,6 @@
-# Getting Started
+---
+title: Getting Started
+---
 
 ## What is Ghost
 Ghost is a small, (soon to be) class-based scripting language.

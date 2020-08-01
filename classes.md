@@ -1,4 +1,6 @@
-# Classes
+---
+title: Classes
+---
 
 Classes define an objects _behavior_ and _state_. Behavior is defined by [methods](/method-calls) which live in the class. Every object of the same class supports the same methods. State is defined in fields, whose values are stored in each instance.
 

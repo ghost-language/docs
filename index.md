@@ -3,14 +3,16 @@
 - Language
     - [Syntax](/docs/{{version}}/syntax)
     - [Values](/docs/{{version}}/values)
+    - [Lists](/docs/{{version}}/lists)
+    - [Maps](/docs/{{version}}/maps)
     - [Variables](/docs/{{version}}/variables)
     - [Operators](/docs/{{version}}/operators)
     - [Control Flow](/docs/{{version}}/control-flow)
     - [Functions](/docs/{{version}}/functions)
-    - [Classes](/docs/{{version}}/classes)
-    - [Method Calls](/docs/{{version}}/method-calls)
-    - [Error Handling](/docs/{{version}}/error-handling)
+    - <span class="text-gray-400 font-normal">Error Handling</span>
+    - <span class="text-gray-400 font-normal">Classes</span>
+    - <span class="text-gray-400 font-normal">Method Calls</span>
 - Standard Library
-    - [Math](/docs/{{version}}/math)
-- Developer Guide
-    - [Style Guide for Ghost Code](/docs/{{version}}/style-guide-for-ghost-code)
+    - <span class="text-gray-400 font-normal">Coming soon</span>
+- References
+    - [Style Guide](/docs/{{version}}/style-guide)

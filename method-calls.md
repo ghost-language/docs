@@ -1,4 +1,6 @@
-# Method Calls
+---
+title: Method Calls
+---
 
 Ghost is deeply object oriented, so most code consists of invoking methods on objects, usually something like this:
 

@@ -1,4 +1,6 @@
-# Values
+---
+title: Values
+---
 
 In Ghost's little universe, the atoms that make up all matter are the built-in data types.
 
@@ -23,28 +25,6 @@ A string value is a (possibly empty) sequence of bytes. The number of bytes is c
 ```dart
 "Hello, world!"
 'こんにちは、世界'
-```
-
-## Lists
-A list value is an ordered list of elements of possibly different types. Each element in a list can be accessed individually. Lists are constructed as a comma separated list of elements, enclosed by brackets.
-
-```dart
-[
-    'Ghost',
-    57.3,
-    function(x) { x * x}
-]
-```
-
-## Maps
-Maps -- sometimes called _associative arrays_, _hashes_, or _dictionaries_ in other programming languages, store a collection of key-value pairings. Maps are constructed as a comma-separated list of key-value pairs enclosed by curly braces. Each key-value pair uses a colon to differentiate between the key and the value.
-
-```dart
-{
-    'name': 'Ghost',
-    'value': 57.3,
-    'handler': function(x) { x * x}
-}
 ```
 
 ## Null

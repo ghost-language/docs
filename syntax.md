@@ -1,4 +1,6 @@
-# Syntax
+---
+title: Syntax
+---
 
 Ghost's syntax pulls a lot of influence from other C-like languages. In particular Go, JavaScript, and PHP. It's designed to be familiar to those coming from these languages, with the aim to be simple and predictable.
 
@@ -44,8 +46,9 @@ ALL_CAPS
 Ghost uses curly braces to define _blocks_. You can use a block anywhere a statement is allowed, like in control flow statements.
 
 ```javascript
-{
-    print("One statement.");
-    print("Two statements.");
+pressure := 3.6
+
+if (pressure > 3.4) {
+    print("Pressure is above critical levels.")
 }
 ```
