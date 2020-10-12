@@ -75,7 +75,7 @@ You can even combine local functions, first-class functions, and block scope:
 
 ```dart
 function returnFunction() {
-    var outside = "outside"
+    outside := "outside"
 
     function inner() {
         print(outside)
