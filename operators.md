@@ -1,4 +1,6 @@
-# Operators
+---
+title: Operators
+---
 
 An operator is something that takes one or more values (or expressions) and yields another value (so that the construction itself becomes an expression)
 
@@ -39,20 +41,32 @@ Remember basic arithmetic from school? These work just like those.
 
 The result of the modulo operator (`%`) has the same sign as the dividend - that is, the result of `a % b` will have the same sign as `a`. For example:
 
-```javascript
-print(5 % 3);    // Prints 2
-print(5 % -3);   // Prints 2
-print(-5 % 3);   // Prints -2
-print(-5 % -3);  // Prints -2
+```dart
+print(5 % 3)     // >> 2
+print(5 % -3)    // >> 2
+print(-5 % 3)    // >> -2
+print(-5 % -3)   // >> -2
 ```
 
-## Assignment Operator
-The basic assignment operator is `=`. This is NOT the same as "equal to". It means that the left operand gets set to the value of the expression on the right.
+## Declaration and Assignment Operators
+The declaration operator is `:=`. This declares a _new_ variable and assigns the value of the expression on the right.
 
-```javascript
-var a = (5 + 10);
+```dart
+message := "Hello, world!"
 
-print(a);  // Prints 15
+print(message)  // >> Hello, world!
+```
+
+The basic assignment operator is `=`. This is NOT the same as "equal to". It means that the left operand gets set to the value of the expression on the right. Assignments can only be used on declared variables.
+
+```dart
+a := 0  // Declare the variable "a" and set the value to 0
+
+print(a)  // >> 0
+
+a = (5 + 10)  // Assign the new value (5 + 10) to the pre-declared variable "a"
+
+print(a)  // >> 15
 ```
 
 ## Comparison Operators

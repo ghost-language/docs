@@ -1,4 +1,6 @@
-# Math
+---
+title: Math
+---
 
 This library provides basic mathematical functions.
 

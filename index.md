@@ -7,10 +7,18 @@
     - [Operators](/docs/{{version}}/operators)
     - [Control Flow](/docs/{{version}}/control-flow)
     - [Functions](/docs/{{version}}/functions)
-    - [Classes](/docs/{{version}}/classes)
-    - [Method Calls](/docs/{{version}}/method-calls)
-    - [Error Handling](/docs/{{version}}/error-handling)
+    - <span class="text-gray-400 font-normal">Error Handling</span>
+    - <span class="text-gray-400 font-normal">Classes</span>
+    - <span class="text-gray-400 font-normal">Method Calls</span>
+- Standard Objects
+    - <span class="text-gray-400 font-normal">Booleans</span>
+    - [Lists](/docs/{{version}}/lists)
+    - [Maps](/docs/{{version}}/maps)
+    - <span class="text-gray-400 font-normal">Null</span>
+    - <span class="text-gray-400 font-normal">Numbers</span>
+    - [Strings](/docs/{{version}}/strings)
 - Standard Library
-    - [Math](/docs/{{version}}/math)
-- Developer Guide
-    - [Style Guide for Ghost Code](/docs/{{version}}/style-guide-for-ghost-code)
+    - <span class="text-gray-400 font-normal">Coming soon</span>
+- References
+    - [Lexical Analysis](/docs/{{version}}/lexical-analysis)
+    - [Style Guide](/docs/{{version}}/style-guide)
