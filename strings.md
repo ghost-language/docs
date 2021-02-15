@@ -2,7 +2,7 @@
 title: Strings
 ---
 
-Strings are useful for holding data that can be represented in text form.
+Strings are useful for holding data that can be represented in text form. Strings may contain any valid Unicode character, including emojis.
 
 ### Creating Strings
 Strings are created using either single or double quotes.
@@ -33,3 +33,26 @@ longString := "This is a very long string which needs " +
               "to wrap across multiple lines because " +
               "otherwise the code will be unreadable."
 ```
+
+## String Methods
+
+### `String.length()`
+Returns the length of the string.
+
+### `String.toLowerCase()`
+Returns the string value converted to lowercase.
+
+### `String.toString()`
+Returns the string value as a string.
+
+### `String.toUpperCase()`
+Returns the string value converted to uppercase.
+
+### `String.trim()`
+Trims whitespace from the beginning and end of the string.
+
+### `String.trimEnd()`
+Trims whitespace from the end of the string.
+
+### `String.trimStart()`
+Trims whitespace from the beginning of the string.
