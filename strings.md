@@ -36,8 +36,17 @@ longString := "This is a very long string which needs " +
 
 ## String Methods
 
+### `String.endsWith(searchString)`
+Determines whether the calling string ends with the characters of string `searchString`.
+
 ### `String.length()`
 Returns the length of the string.
+
+### `String.split(separator)`
+Returns a list of strings populated by splitting the calling string at occurrences of the substring `separator`.
+
+### `String.startsWith(searchString)`
+Determines whether the calling string starts with the characters of string `searchString`.
 
 ### `String.toLowerCase()`
 Returns the string value converted to lowercase.

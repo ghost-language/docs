@@ -23,3 +23,26 @@ print(vocabulary[1])  // >> propogate
 print(vocabulary[2])  // >> execute
 print(vocabulary[3])  // >> initialize
 ```
+
+## List Methods
+
+### `List.first()`
+Returns the first element of the list.
+
+### `List.join(separator)`
+Joins all elements of the list into a string, using `separator` to join the elements together.
+
+### `List.last()`
+Returns the last element of the list.
+
+### `List.length()`
+Returns the number of elements in the list.
+
+### `List.push(element)`
+Adds one new `element` to the end of the list and returns the new length.
+
+### `List.tail()`
+Returns a new list containing all elements but the first.
+
+### `List.toString()`
+Returns a string representing the list and its elements.
