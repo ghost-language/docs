@@ -12,6 +12,15 @@ string1 := "A string value"
 string2 := 'This is also a string value'
 ```
 
+### Character Access
+You can access an individual character in a string using bracket notation, just like you would access an element off of a list or map:
+
+```dart
+return "shiba"[2] // returns "i"
+```
+
+Accessing characters off a string is a read-only action. Attempting to delete or assign a new value will not succeed.
+
 ### Comparing Strings
 Strings can be compared against each other using the `==` operator. This will compare strings in a case-sensitive manner.
 
@@ -65,3 +74,23 @@ Trims whitespace from the end of the string.
 
 ### `String.trimStart()`
 Trims whitespace from the beginning of the string.
+
+## Examples
+
+### Reversing A String
+While there is no built-in method to reverse a string, you can construct a new one by utilizing a `list` and `for` loop:
+
+```dart
+function reverseString(value) {
+    reversed := []
+
+    for (i := value.length() - 1; i >= 0; i := i - 1) {
+        reversed.push(value[i])
+    }
+
+    return reversed.join('')
+}
+
+print(reverseString("abc")) // cba
+print(reverseString("hello world")) // dlrow olleh
+```
