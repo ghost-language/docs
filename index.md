@@ -18,7 +18,7 @@
     - <span class="text-gray-400 font-normal">Numbers</span>
     - [Strings](/docs/{{version}}/strings)
 - Standard Library
-    - <span class="text-gray-400 font-normal">Coming soon</span>
+    - [Math](/docs/{{version}}/math)
 - References
     - [Lexical Analysis](/docs/{{version}}/lexical-analysis)
     - [Style Guide](/docs/{{version}}/style-guide)
