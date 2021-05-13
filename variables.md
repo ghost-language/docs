@@ -44,21 +44,3 @@ function foobar() {
 
 print(a)  // outer
 ```
-
-On the other hand, declaring a variable with the same name in the _same_ scope _is_ an error.
-
-```dart
-a := "hi"
-a := "again"  // Error: "a" is already declared.
-```
-
-## Assignment
-After a variable has been declared, you can assign to it using `=`:
-
-```dart
-a := 123
-
-a = 456
-```
-
-An assignmet walks up the scope stack to find where the named variable is declared. It's an error to assign to a variable that isn't defined. Ghost does not support implicit variable definition.

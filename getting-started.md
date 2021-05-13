@@ -19,7 +19,7 @@ $ brew install ghost-language/ghost/ghost
 If you have Go installed, you may use `go install`:
 
 ```
-$ go install ghostlang.org/x/ghost
+$ go install github.com/ghost-language/ghost
 ```
 
 ### Direct Download
