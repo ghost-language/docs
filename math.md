@@ -4,86 +4,86 @@ title: Math
 
 This library provides basic mathematical functions.
 
-### Math.abs
+### math.abs
 Returns the absolute, or non-negative value, of a given value.
 
 ```javascript
->>> Math.abs(-100);
+>>> math.abs(-100);
 100
 ```
 
-### Math.acos
+### math.acos
 Returns the inverse cosine in radians of the given value.
 
 ```javascript
->>> Math.acos(1);
+>>> math.acos(1);
 0
->>> Math.acos(0);
+>>> math.acos(0);
 1.5708
 ```
 
-### Math.asin
+### math.asin
 Returns the inverse sine in radians of the given value.
 
 ```javascript
->>> Math.asin(0);
+>>> math.asin(0);
 0
->>> Math.asin(1);
+>>> math.asin(1);
 90
 ```
 
-### Math.atan
+### math.atan
 Returns the inverse tangent in radians.
 
 ```javascript
->>> var c = Math.cos(0.8);
->>> var s = Math.cos(0.8);
->>> Math.atan(s/c);
+>>> var c = math.cos(0.8);
+>>> var s = math.cos(0.8);
+>>> math.atan(s/c);
 45
 ```
 
-### Math.ceil
+### math.ceil
 Returns the integer no greater than the given value (even for negatives).
 
 ```javascript
->>> Math.ceil(0.5);
+>>> math.ceil(0.5);
 1
->>> Math.ceil(-0.5);
+>>> math.ceil(-0.5);
 -0
 ```
 
-### Math.cos
+### math.cos
 Return the cosine value for the given value in radians.
 
 ```javascript
->>> Math.cos(Math.pi() / 4);
+>>> math.cos(math.pi() / 4);
 0.999906
 ```
 
-### Math.floor
+### math.floor
 Returns the integer no less than the given value (even for negatives).
 
 ```javascript
->>> Math.floor(0.5);
+>>> math.floor(0.5);
 0
->>> Math.floor(-0.5);
+>>> math.floor(-0.5);
 -1
 ```
 
-### Math.max
+### math.max
 Return the maximum value from a variable length list of arguments.
 
 ```javascript
->>> Math.max(1.2, -7, 3);
+>>> math.max(1.2, -7, 3);
 3
->>> Math.max(1.2, 7, 3);
+>>> math.max(1.2, 7, 3);
 7
 ```
 
-### Math.pi
+### math.pi
 Returns a part of the constant Pi.
 
 ```javascript
->>> Math.pi();
+>>> math.pi();
 3.14159
 ```
